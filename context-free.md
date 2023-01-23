@@ -16,6 +16,7 @@ Anything natural looking is incredibly difficult in this language, since you hav
 
 ## How did you learn how to program in this language?
 Honestly the documentation was hard to get through. I mainly used the examples they gave and changed their variables to see how the resulting image changed. 
+I did check the documentation when needed but it was mainly adjustment and invention. 
 
 
 
