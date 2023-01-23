@@ -38,3 +38,6 @@ Compared to traditional audio creation methods (folly and music) this DSL fulfil
 # Drawbacks
 
 One drawback is it is very low level and slow, making a 3 minute sample that doesnt repeat signficantly would take a signficant amount of code. Its high fidelity and complexity but low usability .
+
+
+I answered most the questions just with my gut instinct. Please inform me if future assignments require longer replies. 
