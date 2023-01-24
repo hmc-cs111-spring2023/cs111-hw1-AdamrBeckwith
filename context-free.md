@@ -16,11 +16,14 @@ Anything natural looking is incredibly difficult in this language, since you hav
 
 ## How did you learn how to program in this language?
 Honestly the documentation was hard to get through. I mainly used the examples they gave and changed their variables to see how the resulting image changed. 
-I did check the documentation when needed but it was mainly adjustment and invention. 
+I did check the documentation when needed but it was mainly adjustment and iteration. 
 
 
 
 ## What is the underlying _computational model_ for this programming language? 
+
+It runs the code and step by step edits an image to add and remove colored pixels. This means that it would place a black box on a black box even if that doesnt actually change the image. It is simply a sequential steps for 
+
 _We don't yet have a great definition of the term "computational model". 
 For now, try to come up with the clearest, most concise explanation of what 
 happens when a ContextFree program runs._
@@ -28,3 +31,6 @@ happens when a ContextFree program runs._
 
 ## What do you think is interesting about the ContextFree program you wrote?
 
+The main example is of the shape system where each level of the code is a shape built of shapes. 
+
+I think it clearly shows how the sequential rotation of individual images changes. Also it is a literaly tree! Great example for recursive generation (although I borrowed alot of the structure of the code from an example)
