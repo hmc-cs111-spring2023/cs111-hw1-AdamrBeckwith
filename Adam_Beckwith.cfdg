@@ -1,0 +1,38 @@
+startshape adam
+
+CF::Background = [hue 120 sat .1 b 0.5]
+
+shape adam 
+rule {
+ flower []
+ adam [y 1.2 size 0.99 rotate 1.5 brightness 0.03]
+}
+
+rule 0.9 {adam [flip 90]}
+
+rule 0.05 {
+ flower[]
+ adam [y 1.2 s .5 r 1.5 b -0.5 flip 90]
+ adam [y 1.2 x 1.2 s 0.6 r -60 b -0.5]
+}
+
+
+shape ball 
+{
+   loop 8 [r 10] SQUARE [[]]
+}
+
+
+shape flower 
+{
+ ball [y .3 x .6 s .5 r 1.5 b -0.5 flip 90]
+ 
+ ball [y 1.2 s .5 r 1.5 b -0.5 flip 90]
+ 
+ ball [y -.3 x .6 s .5 r 1.5 b -0.5 flip 90]
+ 
+  ball [y .3 x -.6 s .5 r 1.5 b -0.5 flip 90]
+
+ ball [y -.3 x -.6 s .5 r 1.5 b -0.5 flip 90]
+
+ }
